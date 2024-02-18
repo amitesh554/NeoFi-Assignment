@@ -48,11 +48,10 @@ The API will be accessible at http://localhost:8000/.
 
 - User Registration: `POST /signup`
 - User Login: `POST /login`
-- Create New Note: `POST /notes/create`
-- Get a Note: `GET /notes/{id}`
-- Share a Note: `POST /notes/share`
-- Update a Note: `PUT /notes/{id}`
-- Get Note Version History: `GET /notes/version-history/{id}`
+- Create New Note: `POST /note/create`
+- Get a Note: `GET /note/{id}`
+- Update a Note: `PUT /note/{id}`
+
 To interact with the API endpoints in this project using Postman, you'll need to send various HTTP request methods. Here are the methods you can use:
 
 - **User Registration:**
